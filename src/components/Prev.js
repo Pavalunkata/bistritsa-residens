@@ -8,22 +8,40 @@ import viz_0 from "../media/viz_0.JPG"
 const Prev = () =>{
     return(
         <div>
-            <StyledImageBackgraound>
+            <StyledBackgraound>
                 <img src={viz_0} alt="backgraound vue of area" />
-            </StyledImageBackgraound>
-            <StyledWellcomeText>
                 <h1>Bisritsa Residence</h1>
                 <h2>Спокойствието на 5 мин от града</h2>
-            </StyledWellcomeText>
+            </StyledBackgraound>
         </div>
     )
 }
 
-const StyledImageBackgraound = styled.div`
+const StyledBackgraound = styled.div`
     margin: 0;
     padding: 0;
     overflow: 0;
-    
+    h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 5rem;
+        padding:0;
+        background: none;
+        
+    }
+    h2{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        background: none;
+        font-size: 3rem;
+        text-align: center;
+    }
     img{
         border: none;
         padding: 0;
@@ -34,17 +52,6 @@ const StyledImageBackgraound = styled.div`
         filter: brightness(30%);
         overflow: 0;
         };
-`;
-const StyledWellcomeText = styled.div`
-    h1{
-        color: green;
-        text-align: center;
-        font-size: 40px;
-    }
-    h2{
-        color: green;
-        text-align: center;
-    }
 `;
 
 export default Prev;

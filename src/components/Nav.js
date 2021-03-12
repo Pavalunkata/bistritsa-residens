@@ -25,6 +25,10 @@ const StyledNav = styled.nav`
   z-index: 10;
 `;
 const Logo = styled.div`
+    background: none;
+    img{
+        background: none;
+    }
     :hover{
         cursor: pointer;
     }

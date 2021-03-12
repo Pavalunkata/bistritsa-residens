@@ -13,7 +13,6 @@ import city from "../media/park-city-view-landscape-512.webp"
 const Advantages = () =>{
     return(
         <DefaultLayout>
-            <h1>Предимства</h1>
             <Cards>
                 <Card>
                     <div className="icon">
@@ -66,9 +65,11 @@ const Advantages = () =>{
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 `;
 const Card = styled.div`
   flex-basis: 20rem;
+  margin: 1.5rem;
   .icon {
     display: flex;
     align-items: center;
