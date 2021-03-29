@@ -21,6 +21,7 @@ const StyledBackgraound = styled.div`
     margin: 0;
     padding: 0;
     overflow: 0;
+    min-height: 90vh;
     h1{
         position: absolute;
         top: 50%;
