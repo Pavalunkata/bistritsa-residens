@@ -23,4 +23,4 @@ export const DefaultLayout = styled.div`
     padding: 2rem 2rem;
     text-align: center;
   }
-`;
+`; 

@@ -3,12 +3,14 @@ import styled from "styled-components";
 import {DefaultLayout} from "../styles";
 
 //importing icons
-import shield from "../media/iconmonstr-shield-28.svg";
-import wind from "../media/iconmonstr-weather-67.svg";
-import build from "../media/iconmonstr-construction-34.svg";
-import calm from "../media/lotus-1625064-1376582.png"
-import view from "../media/view.png"
-import city from "../media/park-city-view-landscape-512.webp"
+import shield from "../media/icons/Shield.svg";
+import wind from "../media/icons/Tree.svg";
+import build from "../media/icons/Qualitatively.svg";
+import calm from "../media/icons/Bird.svg";
+import view from "../media/icons/View.svg";
+import city from "../media/icons/City.svg";
+import pet from "../media/icons/Pet.svg";
+import family from "../media/icons/Family.svg";
 
 const Advantages = () =>{
     return(
@@ -56,6 +58,20 @@ const Advantages = () =>{
                     </div>
                     <p>Само на 10 минути от Околовръстен път</p>
                 </Card>
+                <Card>
+                    <div className="icon">
+                        <img src={pet} alt="icon of shield"/>
+                        <h3>Подходящ за отглеждане на домашни любимци</h3>
+                    </div>
+                    <p>Само на 10 минути от Околовръстен път</p>
+                </Card>
+                <Card>
+                    <div className="icon">
+                        <img src={family} alt="icon of shield"/>
+                        <h3>Подходящ за отглеждане на деца</h3>
+                    </div>
+                    <p>Само на 10 минути от Околовръстен път</p>
+                </Card>
             </Cards>
         </DefaultLayout>
         
@@ -74,8 +90,9 @@ const Card = styled.div`
     display: flex;
     align-items: center;
     img{
-        max-width: 40px;
-        max-height: 40px;
+        height: 100px;
+        font-style: bold;
+        //font-size:1px;
     }
     h3 {
       margin-left: 1rem;
