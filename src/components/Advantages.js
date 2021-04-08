@@ -15,7 +15,7 @@ import family from "../media/icons/Family.svg";
 const Advantages = () =>{
     return(
         <DefaultLayout>
-            <Cards>
+            <Cards className="advantages">
                 <Card>
                     <div className="icon">
                         <img src={city} alt="icon for city view"/>
@@ -87,7 +87,7 @@ const Card = styled.div`
   flex-basis: 20rem;
   margin: 1.5rem;
   .icon {
-    display: flex;
+    //display: flex;
     align-items: center;
     img{
         height: 100px;

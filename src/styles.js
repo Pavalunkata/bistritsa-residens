@@ -6,7 +6,7 @@ export const DefaultLayout = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 5rem 10rem;
-  color: white;
+  //color: white;
   text-align: center;
   h1{
     font-size: 2rem;
@@ -22,5 +22,9 @@ export const DefaultLayout = styled.div`
     display: block;
     padding: 2rem 2rem;
     text-align: center;
+  }
+  p{
+    font-size: 1.5rem;
+
   }
 `; 

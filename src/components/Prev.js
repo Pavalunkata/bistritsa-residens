@@ -10,7 +10,7 @@ const Prev = () =>{
         <div>
             <StyledBackgraound>
                 <img src={viz_0} alt="backgraound vue of area" />
-                <h1>Bisritsa Residence</h1>
+                <h1>Bistritsa Residence</h1>
                 <h2>Спокойствието на 5 мин от града</h2>
             </StyledBackgraound>
         </div>

@@ -11,10 +11,10 @@ const GlobalStyle = createGlobalStyle`
     outline: 0;
     padding: 0;
     margin: 0;
-    background: gray;
+    //background: gray;
     }
 body{
-    font-family: 'Tinos', serif;
+    font-family: Tinos, serif;
 }
 `;
 

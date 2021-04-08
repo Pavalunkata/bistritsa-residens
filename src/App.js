@@ -29,7 +29,7 @@ function App() {
       <Nav />
       <Prev />
       <Advantages />
-      <ImageMap />
+      {/* <ImageMap /> */}
       <AboutHouses />
       <Galery pictures={pictures}/>
       <AboutArea />

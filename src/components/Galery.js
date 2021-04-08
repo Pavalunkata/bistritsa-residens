@@ -21,11 +21,15 @@ const Pictures = styled.div`
 const Picture = styled.img`
     max-height: 15vh;
     margin: 5px;
+    position: relative;
     :hover{
-        transition: transform .5s;
+        transition: transform .8s;
         transform: scale(1.2);
         cursor: pointer;
+        z-index: 2;
     }
+    transition: transform .8s;
+    transform: scale(1);
     
 `;
 
